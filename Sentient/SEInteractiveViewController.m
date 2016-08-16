@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setHeart];
     
 }
 
@@ -26,6 +27,7 @@
     [textField resignFirstResponder];
     
     if([textField.text isEqual:@"I love you"]){
+        [self.timer1 invalidate];
         [self.timer2 invalidate];
         [self setHeart];
         self.timer1 = [NSTimer scheduledTimerWithTimeInterval: 1.0
@@ -36,13 +38,14 @@
     }
     else if([textField.text isEqual:@"I dont love you"]){
         [self.timer1 invalidate];
+        [self.timer2 invalidate];
         [self setHeart];
         self.timer2 = [NSTimer scheduledTimerWithTimeInterval: 2.0
                                                           target: self
                                                         selector:@selector(dataAnimation1)
                                                         userInfo: nil repeats:YES];
     }
-        else if([textField.text isEqual:@"please stop"]){
+        else if([textField.text isEqual:@"stop please"]){
             [self.timer1 invalidate];
             [self.timer2 invalidate];
     

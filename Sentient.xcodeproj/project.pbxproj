@@ -16,10 +16,13 @@
 		8B31331E1D628A98007E8C5A /* SentientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B31331D1D628A98007E8C5A /* SentientTests.m */; };
 		8B3133291D628A98007E8C5A /* SentientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3133281D628A98007E8C5A /* SentientUITests.m */; };
 		8B3133381D628B0F007E8C5A /* SEStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3133371D628B0F007E8C5A /* SEStartViewController.m */; };
-		8B4036391D62A0D600570861 /* brain.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B4036381D62A0D600570861 /* brain.gif */; };
 		8B40363C1D62A3C000570861 /* SEInteractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40363B1D62A3C000570861 /* SEInteractiveViewController.m */; };
-		8B40363E1D62AE4200570861 /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B40363D1D62AE4200570861 /* heart.gif */; };
-		8B6EE3E51D629A3900F7072B /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EE3E41D629A3900F7072B /* giphy.gif */; };
+		8BE7DB051D6372D200CB7573 /* brain.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BE7DB021D6372D200CB7573 /* brain.gif */; };
+		8BE7DB061D6372D200CB7573 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BE7DB031D6372D200CB7573 /* giphy.gif */; };
+		8BE7DB071D6372D200CB7573 /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BE7DB041D6372D200CB7573 /* heart.gif */; };
+		8BE7DB0A1D63737C00CB7573 /* SETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7DB091D63737C00CB7573 /* SETableViewController.m */; };
+		8BE7DB0D1D63AAC300CB7573 /* SETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7DB0C1D63AAC300CB7573 /* SETableViewCell.m */; };
+		8BE7DB0F1D63AB2B00CB7573 /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE7DB0E1D63AB2B00CB7573 /* cell.xib */; };
 		9B9366A32A7C9F110A0DCFEC /* libPods-SentientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DA96C508D85B5507D2BB5 /* libPods-SentientTests.a */; };
 		BF7875D7025C1C9221CB2714 /* libPods-Sentient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F01C27B3EB9D33ABF241BA0 /* libPods-Sentient.a */; };
 /* End PBXBuildFile section */
@@ -65,11 +68,16 @@
 		8B31332A1D628A98007E8C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B3133361D628B0F007E8C5A /* SEStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEStartViewController.h; sourceTree = "<group>"; };
 		8B3133371D628B0F007E8C5A /* SEStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEStartViewController.m; sourceTree = "<group>"; };
-		8B4036381D62A0D600570861 /* brain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = brain.gif; path = ../../../brain.gif; sourceTree = "<group>"; };
 		8B40363A1D62A3C000570861 /* SEInteractiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEInteractiveViewController.h; sourceTree = "<group>"; };
 		8B40363B1D62A3C000570861 /* SEInteractiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEInteractiveViewController.m; sourceTree = "<group>"; };
-		8B40363D1D62AE4200570861 /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = heart.gif; path = ../../../heart.gif; sourceTree = "<group>"; };
-		8B6EE3E41D629A3900F7072B /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
+		8BE7DB021D6372D200CB7573 /* brain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = brain.gif; path = "../../image set/SE/brain.gif"; sourceTree = "<group>"; };
+		8BE7DB031D6372D200CB7573 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = "../../image set/SE/giphy.gif"; sourceTree = "<group>"; };
+		8BE7DB041D6372D200CB7573 /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = heart.gif; path = "../../image set/SE/heart.gif"; sourceTree = "<group>"; };
+		8BE7DB081D63737C00CB7573 /* SETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETableViewController.h; sourceTree = "<group>"; };
+		8BE7DB091D63737C00CB7573 /* SETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETableViewController.m; sourceTree = "<group>"; };
+		8BE7DB0B1D63AAC300CB7573 /* SETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETableViewCell.h; sourceTree = "<group>"; };
+		8BE7DB0C1D63AAC300CB7573 /* SETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETableViewCell.m; sourceTree = "<group>"; };
+		8BE7DB0E1D63AB2B00CB7573 /* cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
 		D35DA96C508D85B5507D2BB5 /* libPods-SentientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SentientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC501859CCC8E8A68CCC5CA /* Pods-SentientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentientTests/Pods-SentientTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,10 +139,15 @@
 				8B3133371D628B0F007E8C5A /* SEStartViewController.m */,
 				8B40363A1D62A3C000570861 /* SEInteractiveViewController.h */,
 				8B40363B1D62A3C000570861 /* SEInteractiveViewController.m */,
+				8BE7DB081D63737C00CB7573 /* SETableViewController.h */,
+				8BE7DB091D63737C00CB7573 /* SETableViewController.m */,
+				8BE7DB0B1D63AAC300CB7573 /* SETableViewCell.h */,
+				8BE7DB0C1D63AAC300CB7573 /* SETableViewCell.m */,
 				8B31330C1D628A97007E8C5A /* Main.storyboard */,
-				8B40363D1D62AE4200570861 /* heart.gif */,
-				8B4036381D62A0D600570861 /* brain.gif */,
-				8B6EE3E41D629A3900F7072B /* giphy.gif */,
+				8BE7DB0E1D63AB2B00CB7573 /* cell.xib */,
+				8BE7DB021D6372D200CB7573 /* brain.gif */,
+				8BE7DB031D6372D200CB7573 /* giphy.gif */,
+				8BE7DB041D6372D200CB7573 /* heart.gif */,
 				8B3133111D628A97007E8C5A /* LaunchScreen.storyboard */,
 				8B3133031D628A97007E8C5A /* Supporting Files */,
 			);
@@ -311,11 +324,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3133131D628A97007E8C5A /* LaunchScreen.storyboard in Resources */,
+				8BE7DB071D6372D200CB7573 /* heart.gif in Resources */,
 				8B3133101D628A97007E8C5A /* Assets.xcassets in Resources */,
-				8B4036391D62A0D600570861 /* brain.gif in Resources */,
-				8B6EE3E51D629A3900F7072B /* giphy.gif in Resources */,
+				8BE7DB051D6372D200CB7573 /* brain.gif in Resources */,
 				8B31330E1D628A97007E8C5A /* Main.storyboard in Resources */,
-				8B40363E1D62AE4200570861 /* heart.gif in Resources */,
+				8BE7DB061D6372D200CB7573 /* giphy.gif in Resources */,
+				8BE7DB0F1D63AB2B00CB7573 /* cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +480,8 @@
 				8B3133381D628B0F007E8C5A /* SEStartViewController.m in Sources */,
 				8B40363C1D62A3C000570861 /* SEInteractiveViewController.m in Sources */,
 				8B3133081D628A97007E8C5A /* AppDelegate.m in Sources */,
+				8BE7DB0D1D63AAC300CB7573 /* SETableViewCell.m in Sources */,
+				8BE7DB0A1D63737C00CB7573 /* SETableViewController.m in Sources */,
 				8B3133051D628A97007E8C5A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
