@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SEStartViewController.h
 //  Sentient
 //
 //  Created by Kostya on 16.08.16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import <YLGIFImage.h>
+#import <YLImageView.h>
+@interface SEStartViewController : UIViewController
 
 @end
-

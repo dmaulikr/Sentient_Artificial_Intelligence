@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472D0A70A0CCE6F5FCA3BFFE /* libPods-SentientUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FA748BEB8D998205019FD1 /* libPods-SentientUITests.a */; };
 		8B3133051D628A97007E8C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3133041D628A97007E8C5A /* main.m */; };
 		8B3133081D628A97007E8C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3133071D628A97007E8C5A /* AppDelegate.m */; };
-		8B31330B1D628A97007E8C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B31330A1D628A97007E8C5A /* ViewController.m */; };
 		8B31330E1D628A97007E8C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B31330C1D628A97007E8C5A /* Main.storyboard */; };
 		8B3133101D628A97007E8C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B31330F1D628A97007E8C5A /* Assets.xcassets */; };
 		8B3133131D628A97007E8C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3133111D628A97007E8C5A /* LaunchScreen.storyboard */; };
 		8B31331E1D628A98007E8C5A /* SentientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B31331D1D628A98007E8C5A /* SentientTests.m */; };
 		8B3133291D628A98007E8C5A /* SentientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3133281D628A98007E8C5A /* SentientUITests.m */; };
+		8B3133381D628B0F007E8C5A /* SEStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3133371D628B0F007E8C5A /* SEStartViewController.m */; };
+		8B4036391D62A0D600570861 /* brain.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B4036381D62A0D600570861 /* brain.gif */; };
+		8B40363C1D62A3C000570861 /* SEInteractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B40363B1D62A3C000570861 /* SEInteractiveViewController.m */; };
+		8B40363E1D62AE4200570861 /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B40363D1D62AE4200570861 /* heart.gif */; };
+		8B6EE3E51D629A3900F7072B /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EE3E41D629A3900F7072B /* giphy.gif */; };
+		9B9366A32A7C9F110A0DCFEC /* libPods-SentientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DA96C508D85B5507D2BB5 /* libPods-SentientTests.a */; };
+		BF7875D7025C1C9221CB2714 /* libPods-Sentient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F01C27B3EB9D33ABF241BA0 /* libPods-Sentient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10D78AD1A21F2DEFF15C573F /* Pods-SentientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentientUITests/Pods-SentientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F01C27B3EB9D33ABF241BA0 /* libPods-Sentient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sentient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34836E1199959F629611910C /* Pods-SentientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentientUITests/Pods-SentientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47FA748BEB8D998205019FD1 /* libPods-SentientUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SentientUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5404480E0FAAA744540F1DBE /* Pods-Sentient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sentient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sentient/Pods-Sentient.debug.xcconfig"; sourceTree = "<group>"; };
+		781334CB6FC86A2D9C896000 /* Pods-SentientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentientTests/Pods-SentientTests.release.xcconfig"; sourceTree = "<group>"; };
+		88F4BD945C9A0976072A965E /* Pods-Sentient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sentient.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sentient/Pods-Sentient.release.xcconfig"; sourceTree = "<group>"; };
 		8B3133001D628A97007E8C5A /* Sentient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3133041D628A97007E8C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B3133061D628A97007E8C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B3133071D628A97007E8C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B3133091D628A97007E8C5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B31330A1D628A97007E8C5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B31330D1D628A97007E8C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B31330F1D628A97007E8C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3133121D628A97007E8C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,15 @@
 		8B3133241D628A98007E8C5A /* SentientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3133281D628A98007E8C5A /* SentientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SentientUITests.m; sourceTree = "<group>"; };
 		8B31332A1D628A98007E8C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3133361D628B0F007E8C5A /* SEStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEStartViewController.h; sourceTree = "<group>"; };
+		8B3133371D628B0F007E8C5A /* SEStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEStartViewController.m; sourceTree = "<group>"; };
+		8B4036381D62A0D600570861 /* brain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = brain.gif; path = ../../../brain.gif; sourceTree = "<group>"; };
+		8B40363A1D62A3C000570861 /* SEInteractiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEInteractiveViewController.h; sourceTree = "<group>"; };
+		8B40363B1D62A3C000570861 /* SEInteractiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEInteractiveViewController.m; sourceTree = "<group>"; };
+		8B40363D1D62AE4200570861 /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = heart.gif; path = ../../../heart.gif; sourceTree = "<group>"; };
+		8B6EE3E41D629A3900F7072B /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
+		D35DA96C508D85B5507D2BB5 /* libPods-SentientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SentientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC501859CCC8E8A68CCC5CA /* Pods-SentientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentientTests/Pods-SentientTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7875D7025C1C9221CB2714 /* libPods-Sentient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9366A32A7C9F110A0DCFEC /* libPods-SentientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472D0A70A0CCE6F5FCA3BFFE /* libPods-SentientUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				8B3133021D628A97007E8C5A /* Sentient */,
-				8B31331C1D628A98007E8C5A /* SentientTests */,
-				8B3133271D628A98007E8C5A /* SentientUITests */,
-				8B3133011D628A97007E8C5A /* Products */,
+				D6F2901B48265CAD483A81AC /* Pods */,
+				CADCDEC0D514A4EA32E27EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,7 @@
 				8B3133241D628A98007E8C5A /* SentientUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8B3133021D628A97007E8C5A /* Sentient */ = {
@@ -103,12 +127,15 @@
 			children = (
 				8B3133061D628A97007E8C5A /* AppDelegate.h */,
 				8B3133071D628A97007E8C5A /* AppDelegate.m */,
-				8B3133091D628A97007E8C5A /* ViewController.h */,
-				8B31330A1D628A97007E8C5A /* ViewController.m */,
+				8B3133361D628B0F007E8C5A /* SEStartViewController.h */,
+				8B3133371D628B0F007E8C5A /* SEStartViewController.m */,
+				8B40363A1D62A3C000570861 /* SEInteractiveViewController.h */,
+				8B40363B1D62A3C000570861 /* SEInteractiveViewController.m */,
 				8B31330C1D628A97007E8C5A /* Main.storyboard */,
-				8B31330F1D628A97007E8C5A /* Assets.xcassets */,
+				8B40363D1D62AE4200570861 /* heart.gif */,
+				8B4036381D62A0D600570861 /* brain.gif */,
+				8B6EE3E41D629A3900F7072B /* giphy.gif */,
 				8B3133111D628A97007E8C5A /* LaunchScreen.storyboard */,
-				8B3133141D628A97007E8C5A /* Info.plist */,
 				8B3133031D628A97007E8C5A /* Supporting Files */,
 			);
 			path = Sentient;
@@ -117,6 +144,11 @@
 		8B3133031D628A97007E8C5A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B31331C1D628A98007E8C5A /* SentientTests */,
+				8B3133271D628A98007E8C5A /* SentientUITests */,
+				8B3133011D628A97007E8C5A /* Products */,
+				8B31330F1D628A97007E8C5A /* Assets.xcassets */,
+				8B3133141D628A97007E8C5A /* Info.plist */,
 				8B3133041D628A97007E8C5A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -129,7 +161,7 @@
 				8B31331F1D628A98007E8C5A /* Info.plist */,
 			);
 			path = SentientTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		8B3133271D628A98007E8C5A /* SentientUITests */ = {
 			isa = PBXGroup;
@@ -138,6 +170,29 @@
 				8B31332A1D628A98007E8C5A /* Info.plist */,
 			);
 			path = SentientUITests;
+			sourceTree = SOURCE_ROOT;
+		};
+		CADCDEC0D514A4EA32E27EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F01C27B3EB9D33ABF241BA0 /* libPods-Sentient.a */,
+				D35DA96C508D85B5507D2BB5 /* libPods-SentientTests.a */,
+				47FA748BEB8D998205019FD1 /* libPods-SentientUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F2901B48265CAD483A81AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5404480E0FAAA744540F1DBE /* Pods-Sentient.debug.xcconfig */,
+				88F4BD945C9A0976072A965E /* Pods-Sentient.release.xcconfig */,
+				DEC501859CCC8E8A68CCC5CA /* Pods-SentientTests.debug.xcconfig */,
+				781334CB6FC86A2D9C896000 /* Pods-SentientTests.release.xcconfig */,
+				34836E1199959F629611910C /* Pods-SentientUITests.debug.xcconfig */,
+				10D78AD1A21F2DEFF15C573F /* Pods-SentientUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B31332D1D628A98007E8C5A /* Build configuration list for PBXNativeTarget "Sentient" */;
 			buildPhases = (
+				B3C86397F6815E31F8F02C49 /* [CP] Check Pods Manifest.lock */,
 				8B3132FC1D628A97007E8C5A /* Sources */,
 				8B3132FD1D628A97007E8C5A /* Frameworks */,
 				8B3132FE1D628A97007E8C5A /* Resources */,
+				7251D557D554DE46A4D4CDB4 /* [CP] Embed Pods Frameworks */,
+				5B228A90240D1FC6C2B6F529 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3133301D628A98007E8C5A /* Build configuration list for PBXNativeTarget "SentientTests" */;
 			buildPhases = (
+				A85795872DCD29ADF0165504 /* [CP] Check Pods Manifest.lock */,
 				8B3133151D628A98007E8C5A /* Sources */,
 				8B3133161D628A98007E8C5A /* Frameworks */,
 				8B3133171D628A98007E8C5A /* Resources */,
+				D8C7B69CFF5E99C4DB38984C /* [CP] Embed Pods Frameworks */,
+				AE075D1107D7993B0F57B3FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3133331D628A98007E8C5A /* Build configuration list for PBXNativeTarget "SentientUITests" */;
 			buildPhases = (
+				B3CE08A2D5592F2DF018BBDF /* [CP] Check Pods Manifest.lock */,
 				8B3133201D628A98007E8C5A /* Sources */,
 				8B3133211D628A98007E8C5A /* Frameworks */,
 				8B3133221D628A98007E8C5A /* Resources */,
+				9678063346956A46C009A0E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +265,7 @@
 		8B3132F81D628A97007E8C5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SE;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Stolyarenko K.S.";
 				TargetAttributes = {
@@ -248,7 +312,10 @@
 			files = (
 				8B3133131D628A97007E8C5A /* LaunchScreen.storyboard in Resources */,
 				8B3133101D628A97007E8C5A /* Assets.xcassets in Resources */,
+				8B4036391D62A0D600570861 /* brain.gif in Resources */,
+				8B6EE3E51D629A3900F7072B /* giphy.gif in Resources */,
 				8B31330E1D628A97007E8C5A /* Main.storyboard in Resources */,
+				8B40363E1D62AE4200570861 /* heart.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +335,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B228A90240D1FC6C2B6F529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sentient/Pods-Sentient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7251D557D554DE46A4D4CDB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sentient/Pods-Sentient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9678063346956A46C009A0E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentientUITests/Pods-SentientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85795872DCD29ADF0165504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE075D1107D7993B0F57B3FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentientTests/Pods-SentientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C86397F6815E31F8F02C49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CE08A2D5592F2DF018BBDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C7B69CFF5E99C4DB38984C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentientTests/Pods-SentientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B3132FC1D628A97007E8C5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B31330B1D628A97007E8C5A /* ViewController.m in Sources */,
+				8B3133381D628B0F007E8C5A /* SEStartViewController.m in Sources */,
+				8B40363C1D62A3C000570861 /* SEInteractiveViewController.m in Sources */,
 				8B3133081D628A97007E8C5A /* AppDelegate.m in Sources */,
 				8B3133051D628A97007E8C5A /* main.m in Sources */,
 			);
@@ -414,6 +605,7 @@
 		};
 		8B31332E1D628A98007E8C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5404480E0FAAA744540F1DBE /* Pods-Sentient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sentient/Info.plist;
@@ -425,6 +617,7 @@
 		};
 		8B31332F1D628A98007E8C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F4BD945C9A0976072A965E /* Pods-Sentient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sentient/Info.plist;
@@ -436,6 +629,7 @@
 		};
 		8B3133311D628A98007E8C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC501859CCC8E8A68CCC5CA /* Pods-SentientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SentientTests/Info.plist;
@@ -448,6 +642,7 @@
 		};
 		8B3133321D628A98007E8C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781334CB6FC86A2D9C896000 /* Pods-SentientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SentientTests/Info.plist;
@@ -460,6 +655,7 @@
 		};
 		8B3133341D628A98007E8C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34836E1199959F629611910C /* Pods-SentientUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SentientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -471,6 +667,7 @@
 		};
 		8B3133351D628A98007E8C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D78AD1A21F2DEFF15C573F /* Pods-SentientUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SentientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -499,6 +696,7 @@
 				8B31332F1D628A98007E8C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B3133301D628A98007E8C5A /* Build configuration list for PBXNativeTarget "SentientTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +705,7 @@
 				8B3133321D628A98007E8C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B3133331D628A98007E8C5A /* Build configuration list for PBXNativeTarget "SentientUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +714,7 @@
 				8B3133351D628A98007E8C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
